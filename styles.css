@@ -81,6 +81,30 @@
     /* max-width: 400px; */
 }
 
+.header-mv {
+    display: flex;
+    justify-content: center;
+}
+
+.header-mv h1 {
+    color: #fff;
+    font-size: 1.8em;
+    letter-spacing: 2px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.header-mv h1 {
+    width: 0;
+    animation: type 1.6s steps(13, end) 1000ms forwards;
+}
+
+@keyframes type {
+    to {
+    width: 350px;
+    }
+}
+
 
 
 

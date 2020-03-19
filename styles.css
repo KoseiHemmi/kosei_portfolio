@@ -93,6 +93,7 @@
     letter-spacing: 2px;
     overflow: hidden;
     white-space: nowrap;
+    font-family: 'Noto Serif JP', serif;
 }
 
 .header-mv h1 {

@@ -11,3 +11,11 @@ $(function() {
         $('#hamburger-icon').fadeIn();
     });
 });
+
+ScrollReveal().reveal('section', {
+    duration: 3500,
+    origin: 'bottom',
+    distance: '100px',
+    reset: true
+});
+
